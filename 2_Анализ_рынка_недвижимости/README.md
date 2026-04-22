@@ -1,30 +1,53 @@
-# Проект: Продажа квартир в Санкт-Петербурге — анализ рынка недвижимости
-## Описание: 
-Источник: данные сервиса Яндекс.Недвижимость (архив объявлений о продаже квартир в Санкт-Петербурге и соседних населённых пунктов за несколько лет). 
+# **Project: Apartment Listings in Saint Petersburg — Real Estate Market Analysis**
 
-Цель: на основе данных определить рыночную стоимость объектов недвижимости разного типа, типичные параметры квартир, в зависимости от удаленности от центра. 
+## **Description**
+**Data source:** Yandex.Real Estate dataset (archive of apartment listings in Saint Petersburg and nearby areas over several years)
 
-Провела предобработку данных. Добавила новые данные. Построила гистограммы, боксплоты, диаграммы рассеивания. Результат исследования помог создать алгоритм для оценки стоимости квартиры в зависимости от различных факторов и предотвратить мошенничество.
+**Objective:**  
+Determine the market value of different types of properties and identify typical apartment characteristics depending on distance from the city center.
 
-## Стек: 
-Matplotlib, Pandas, Python, визуализация данных, исследовательский анализ данных, предобработка данных
-## Выводы:
-Было проведено исследование данных о продажах квартир в Санкт-Петербурге и области с ноября 2014 года по март 2019 года. В выборке были представлены квартиры разных классовых категорий, присутсвует элитная недвижимость. 
-По результатам исследования были выявлены следующие показатели зависимости конечной стоимости от критериев выше (1 - прямая зависимость, 0 - нет зависимости):
-- размер общей площади: 0.65
-- размер жилой площади: 0.55
-- размер площади кухни: 0.45
-- количество комнат: 0.4
+## **Work Performed**
+- Conducted data preprocessing  
+- Performed feature engineering (created additional variables)  
+- Built visualizations: histograms, boxplots, and scatter plots  
+- Carried out exploratory data analysis (EDA)  
 
-Тип этажа также имеет связь с конечной стоимостью. Исследование показало, что жильё на первом этаже дешевле, как минимум на 7%. В случае с последним этажом, также видна тенденция снижения цены на 8-9%. 
+The results were used to design an approach for estimating apartment prices based on key features and to help detect potential fraud in listings.
 
-Не было найдено зависимости между датой публикации объявления и конечной стоимостью квартиры.
+## **Tech Stack**
+Matplotlib, Pandas, Python, Data Visualization, Exploratory Data Analysis, Data Preprocessing  
 
-Среди 10 населённых пунктов с самым большим количеством размещённых объявлений самым дорогим стал Санкт-Петербург - 15352 объявления, 104656 рублей за 1 кв.м. Самым дешёвым - город Гатчина - 293 объявления, 67671 рублей за 1 кв.м. 
+## **Key Findings**
+The analysis covers apartment listings in Saint Petersburg and surrounding areas from November 2014 to March 2019. The dataset includes properties across different market segments, including premium real estate.
 
-Было выявлено закономерное снижение средней стоимости жилья с удалением от центра города.
+**Correlation with final price (1 = strong, 0 = none):**
+- Total area: 0.65  
+- Living area: 0.55  
+- Kitchen area: 0.45  
+- Number of rooms: 0.40  
 
-Рекомендуется учитывать также класс недвижимости, т.к. элитные квартиры выделяются на общем фоне и изменяют общее распределение значений. Год постройки может также влиять на цену квартиры, вероятно, это стало причиной провала цен в 3 км от центра города в зданиях с 5-7 этажами. Стоить проверить эту гипотезу.
+- Floor level impacts pricing:
+  - First-floor apartments are at least **7% cheaper**  
+  - Top-floor apartments show a **8–9% price decrease**  
 
-## Статус:
-Проект завершён
+- No significant relationship was found between listing publication date and final price  
+
+- Among the top 10 locations by number of listings:
+  - **Most expensive:** Saint Petersburg — 15,352 listings, 104,656 RUB/m²  
+  - **Least expensive:** Gatchina — 293 listings, 67,671 RUB/m²  
+
+- A clear trend shows decreasing property prices with increasing distance from the city center  
+
+## **Conclusion**
+- Property size and number of rooms are the strongest predictors of price  
+- Floor level is a significant pricing factor  
+- Location (distance from city center) strongly influences property value  
+
+Additional factors to consider:
+- Property class (premium vs standard), as luxury housing skews distributions  
+- Year of construction, which may explain anomalies (e.g., price drops ~3 km from city center in mid-rise buildings)  
+
+Further analysis is recommended to validate these hypotheses.
+
+## **Status**
+Completed
