@@ -1,18 +1,22 @@
-# Проект: Анализ бизнес-показателей развлекательного приложения Procrastinate Pro+
-## Описание:
-Источник: данные о расходах на рекламу приложения ProcrastinatePRO+
+# Project: Business Metrics Analysis of the Procrastinate Pro+ Entertainment App
 
-Цель: выяснить причины убытков сервиса, несмотря на растущие вложения в рекламу
+## Description:
+Source: data on advertising expenses for the Procrastinate Pro+ application
 
-Провела анализ распределения пользователей по каналам привлечения, регионам и устройствам и определить долю платящих пользователей. Проанализировала количество вложенных средств в рекламу в разных источниках и их динамику. Проанализировала основные показатели окупаемости рекламы (ROI) для всего проекта и для отдельных категорий пользователей (регионы, устройства, каналы привлечения), а также затрат на привлечение одного пользователя (CAC) и лайфтайм (LTV).
-## Стек:
-Matplotlib, Pandas, Python, Seaborn, когортный анализ, продуктовые метрики, юнит-экономика
-## Выводы:
-Причины неокупаемости рекламы:
-- большие затраты на рекламу для пользователей США по сравнению с остальными регионами, т.к. США показывают отрицательную динамику по окупаемости; при этом, доля платящих пользователей США (7%) почти не отличается от доли в других регионах (4%), однако привлекает почти в 6 раз больше пользователей;
-- большие затраты на рекламу для пользователей платформы TipTop, который также показывает отрицательную динамику по окупаемости, привлекает достаточно большое количество пользователей, но не обладает самой большой долей платящих пользователей (9,6%).
+Objective: identify the reasons for the service’s losses despite increasing investments in advertising
 
-Рекомендации для маркетинга:
-перераспределить средства на рекламу, направив их в более стабильные, показывающие положительную динамику регионы (1 - UK, 2 - Германия, 3 - Франция) и каналы привлечения (YRabbit, MediaTornado, а также отметить AdNonSense и lambdaMediaAds, которые показывают относительно высокую долю платящих пользователей - более 10%).
-## Статус:
-Проект завершён
+Analyzed the distribution of users by acquisition channels, regions, and devices, and determined the share of paying users. Analyzed advertising spending across different channels and its dynamics. Evaluated key advertising performance metrics (ROI) for the entire project and for individual user segments (regions, devices, acquisition channels), as well as customer acquisition cost (CAC) and lifetime value (LTV).
+
+## Tech Stack:
+Matplotlib, Pandas, Python, Seaborn, cohort analysis, product metrics, unit economics
+
+## Conclusions:
+Reasons for unprofitable advertising:
+- high advertising costs for users in the U.S. compared to other regions, as the U.S. shows a negative ROI trend; at the same time, the share of paying users in the U.S. (7%) is not significantly different from other regions (4%), but it attracts nearly 6 times more users;
+- high advertising costs for users acquired through the TipTop platform, which also shows a negative ROI trend, attracts a large number of users, but does not have the highest share of paying users (9.6%).
+
+Marketing recommendations:
+reallocate the advertising budget toward more stable regions with positive performance trends (1 - UK, 2 - Germany, 3 - France) and acquisition channels (YRabbit, MediaTornado, and also note AdNonSense and lambdaMediaAds, which show relatively high shares of paying users — over 10%).
+
+## Status:
+Project completed
