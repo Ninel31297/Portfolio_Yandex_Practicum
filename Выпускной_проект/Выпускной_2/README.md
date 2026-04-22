@@ -1,13 +1,17 @@
-# Проект: A/B-тестирование
-## Описание: 
-Источник: данные о поведении пользователей с новой системой рекомендаций из контрольной и тестовой групп, ТЗ, несколько вспомогательных датасетов
+# Project: A/B Testing
 
-Цель: проанализировать результаты текущего теста и принять решение об эффективности этого нововведения для сервиса
+## Description:
+Source: user behavior data from control and test groups using a new recommendation system, technical requirements (spec), and auxiliary datasets
 
-Провела оценку результатов A/B-теста. Исследовала данные: преобразовала типы, обработала пропуски и дубликаты. Убедилась в соответствии данных ТЗ. Убрала данные, не соответствующие ТЗ. Провела исследовательский анализ данных. Оценила результаты A/B-тестирования. Проверила статистическую разницу долей z-критерием. Описала выводы по этапу исследовательского анализа данных и по проведённой оценке результатов A/B-тестирования. Сделала общее заключение о корректности проведения теста.
-## Стэк: 
-Pandas, Plotly.express, Matplotlib.pyplot, Scipy.Stats, Numpy, Math
-## Вывод: 
-По результатам теста, говорящих об отстутствии значительных различий по событиям в контрольной группах и экспериментальной группе, делаем вывод, что новая система рекомендаций не влияет на показатели пользователей, поэтому она не приведёт к увеличению конверсии.
-## Статус:
-Проект завершён
+Objective: analyze the results of the experiment and evaluate the effectiveness of the new feature for the service
+
+Evaluated the results of an A/B test. Explored the data: converted data types, handled missing values and duplicates. Verified compliance with technical requirements. Removed data that did not meet the specification. Conducted exploratory data analysis. Assessed A/B test results. Tested statistical significance of proportions using a z-test. Documented conclusions from both the exploratory analysis and the A/B test evaluation. Made an overall conclusion about the correctness of the experiment design.
+
+## Tech Stack:
+Pandas, Plotly.express, Matplotlib.pyplot, SciPy.stats, NumPy, Math
+
+## Conclusion:
+Based on the results of the test, which show no statistically significant differences in user behavior between the control and experimental groups, it is concluded that the new recommendation system does not affect user metrics and is unlikely to improve conversion rates.
+
+## Status:
+Project completed
