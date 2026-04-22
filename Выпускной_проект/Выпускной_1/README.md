@@ -1,20 +1,26 @@
-# Проект: Выделение групп пользователей в приложении «Ненужные вещи» на основе их поведения
-## Описание:
-Источник: данные о пользовательской активности в приложении «Ненужные вещи»
+# Project: User Segmentation in the “Unused Things” App Based on Behavioral Patterns
 
-Цель: найти в данных инсайты и выделить целевую группу самых активных пользователей, под которую мы сможем адаптировать наше приложение и повысить монетизацию
+## Description:
+Source: user activity data from the “Unused Things” mobile application
 
-Провела предобработку данных. Выделила группы пользователей, которые различаются по метрикам: retention rate, время, проведённое в приложении, частота действий, конверсия в целевое действие — просмотр контактов. Провела исследовательский анализ данных. Сегментировала пользователей на основе их действий в приложении. Проверила статистические гипотезы.
-## Стек:
-Pandas, Seaborn, Matplotlib, Numpy, Plotly.express, Scipy.stats
-## Выводы: 
-1. При выборе целевой группы учитывать, время в которое пользователь активен, т.к. пользователи, пришедшие днём имеют конверсию выше, чем ночные пользователи.
-2. Пользователи будних дней более активны в открывании контактов, но меньше проводят времени занимаясь поиском и просмотром фото, в отличие от выходных пользователей.
-3. Разницы в конверсии или удержании в группах пользователей из разных источников нет, однако, пользователи из Яндекса составляют 45% всей выборки и чаще задерживаются в приложении, чем другие пользователи.
-## Презентация: 
-https://docs.google.com/presentation/d/1kGCtCJQmoS-tRjdtKWcO-FYPtT1YmruZnnreJoxi5Jw/edit?usp=sharing
-## Дашборд: 
-https://public.tableau.com/app/profile/nina.galimullina/viz/_16874412423290/Dashboard1
-## Статус:
-Проект завершён
+Objective: identify insights in the data and segment the most active user group, which can be used to adapt the product and increase monetization
+
+Performed data preprocessing. Identified user groups based on differences in key metrics: retention rate, time spent in the app, action frequency, and conversion to the target action (viewing contacts). Conducted exploratory data analysis. Segmented users based on in-app behavior. Tested statistical hypotheses.
+
+## Tech Stack:
+Pandas, Seaborn, Matplotlib, NumPy, Plotly.express, SciPy.stats
+
+## Conclusions:
+1. When selecting the target user group, time of activity should be considered, as users active during the daytime show higher conversion rates than nighttime users.  
+2. Users active on weekdays are more likely to view contacts, but spend less time browsing and viewing photos compared to weekend users.  
+3. There is no significant difference in conversion or retention between users from different acquisition sources; however, Yandex users account for 45% of the dataset and tend to spend more time in the app than other users.
+
+## Presentation:
+https://docs.google.com/presentation/d/1kGCtCJQmoS-tRjdtKWcO-FYPtT1YmruZnnreJoxi5Jw/edit?usp=sharing  
+
+## Dashboard:
+https://public.tableau.com/app/profile/nina.galimullina/viz/_16874412423290/Dashboard1  
+
+## Status:
+Project completed
 
