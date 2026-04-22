@@ -1,17 +1,21 @@
-# Проект: Анализ пользовательского поведения в мобильном приложении
-## Описание:
-Источник: данные о пользовательской активности приложения для продажи продуктов
+# Project: User Behavior Analysis in a Mobile Application
 
-Цель: проанализировать воронку продаж, оценить результаты A/A/B-тестирования
+## Description:
+Source: user activity data from a grocery shopping mobile application
 
-В данном проекте мной были изучены принципы событийной аналитики. Я построила воронку продаж, исследовала путь пользователей до покупки. Проанализировала результаты A/B-теста введения новых шрифтов. Сравнила 2 контрольных группы между собой, убедилась в правильном разделении трафика, а затем сравнила с тестовой группой. Выявила, что новый шрифт значительно не повлияет на поведение пользователей.
-## Стек:
-A/B-тестирование, Matplotlib, Pandas, Plotly, Python, Seaborn, визуализация данных, проверка статистических гипотез, продуктовые метрики, событийная аналитика 
-## Выводы:
-По результатам исследования воронки событий и анализа результатов A/B теста, выяснила, что нет значительной разницы между долями пользователей, совершаюших то или иное событие во всех трех группах. Вероятность равенства долей между группами составила в среднем более 20%, достигая 90% и более.
+Objective: analyze the sales funnel and evaluate A/A/B test results
 
-Был проведён A/A тест для проверки корректности проведённого A/B теста. Результаты подтвердились.
+In this project, I studied the principles of event analytics. Built a sales funnel and analyzed the user journey toward purchase. Evaluated the results of an A/B test involving new font implementation. Compared two control groups to verify correct traffic splitting, and then compared them with the test group. Found that the new font does not significantly affect user behavior.
 
-По результатам теста, говорящих об отстутствии значительных различий по событиям в контрольных группах и экспериментальной группе, делаем вывод, что новые шрифты не влияют на поведение покупателей, поэтому не имеет смысла их изменять для увеличения конверсии.
-## Статус:
-Проект завершён
+## Tech Stack:
+A/B testing, Matplotlib, Pandas, Plotly, Python, Seaborn, data visualization, statistical hypothesis testing, product metrics, event analytics 
+
+## Conclusions:
+Based on the funnel analysis and A/B test results, there is no significant difference between the proportions of users completing events across all three groups. The probability of equality between group proportions averaged above 20%, reaching 90% or higher in some cases.
+
+An A/A test was conducted to validate the correctness of the A/B test setup. The results were consistent and confirmed proper experiment design.
+
+Based on the absence of statistically significant differences between control and experimental groups, it can be concluded that the new fonts do not impact user behavior. Therefore, changing fonts is unlikely to improve conversion rates.
+
+## Status:
+Project completed
