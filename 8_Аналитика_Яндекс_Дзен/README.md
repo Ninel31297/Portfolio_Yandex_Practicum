@@ -1,15 +1,24 @@
-# Проект: Аналитика Яндекс Дзен. Создание дашборда по пользовательским событиям для агрегатора новостей
-## Описание:
-Источник: исторические данные о TED-конференциях
+# Project: Yandex Zen Analytics — User Event Dashboard for News Aggregator
 
-Цель: исследовать историю конференций и создать дашборд в Tableau на основе полученных данных
+## Description:
+Source: historical data from TED conferences
 
-Подготовила интерактивный дашборд на основе данных о конференциях. Для создания дашбордов использовала BI-инструмент Tableau.
-## Стек: 
-Tableau, построение дашбордов, продуктовые метрики, презентации
-## Вывод: 
-Есть карточки, имеющие отличные от их источника темы, это влияет на распределение популярных категорий в карточках и источниках. Например, карточки с рассказами из источника с путешествиями (более 2 тыс.), карточки о науке из источника с кино (1964 шт.), общество из источника «Россия» (1844 шт.), карточки общество из источника о семейных отношениях (1638 шт.) и т.д.
-## Дашборд: 
-https://public.tableau.com/app/profile/nina.galimullina/viz/Myfirstdashboard_16857988365270/Myfirstdashboard
-## Статус:
-Проект завершён
+Objective: analyze conference history and build an interactive Tableau dashboard based on the dataset
+
+Developed an interactive dashboard using conference data. Created dashboards using the BI tool Tableau.
+
+## Tech Stack:
+Tableau, dashboard development, product metrics, presentations
+
+## Conclusions:
+There are cards that contain topics different from their original source category, which affects the distribution of popular categories across cards and sources. For example:
+- Travel-source cards with stories (over 2,000 entries)  
+- Science-related cards originating from a cinema-related source (1,964 entries)  
+- Society-related cards from the “Russia” source (1,844 entries)  
+- Society-related cards from a family relations source (1,638 entries), etc.
+
+## Dashboard:
+https://public.tableau.com/app/profile/nina.galimullina/viz/Myfirstdashboard_16857988365270/Myfirstdashboard  
+
+## Status:
+Project completed
