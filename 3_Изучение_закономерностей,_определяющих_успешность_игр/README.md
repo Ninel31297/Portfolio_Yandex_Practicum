@@ -1,15 +1,49 @@
-# Проект: Изучение закономерностей, определяющих успешность игр
-## Описание: 
-Источник: исторические данные о продажах компьютерных игр, оценках пользователей и экспертов, жанрах и платформах
+# **Project: Identifying Patterns That Determine Game Success**
 
-Цель: выявить закономерности, определяющие успешность игры для будущих рекламных компаний на 2017 год
+## **Description**
+**Data source:** Historical dataset on video game sales, user and critic ratings, genres, and platforms  
 
-Провела предобработку данных, анализ. Выбрала актуальный период для анализа. Составила портреты пользователей каждого региона. Проверила гипотезы: средние пользовательские рейтинги платформ Xbox One и PC одинаковые; средние пользовательские рейтинги жанров Action и Sports разные. При анализе использовала критерий Стьюдента для независимых выборок.
-## Стек: 
-Matplotlib, NumPy, Pandas, Python, исследовательский анализ данных, описательная статистика, предобработка данных, проверка статистических гипотез
-## Выводы:
-Было проведено исследование данных о продажах игр на мировом рынке с 1985 года по 2016 год.
+**Objective:**  
+Identify key factors that determine a game's commercial success to support marketing strategy planning for 2017.
 
-При выборе платформы стоит помнить и 5-ти самых популярных платформах на рынке (PS4, Xbox One, X360, Wii, WiiU). Стоит обратить внимание на жанры Shooter, Sports, Platform, Fighting, Role-Playing, которые показали стабильно высокие средние продажи. Глобальный топ-5 платформ бестселлеров подтверждает, что рынок Европы и Америки показателен и PS4 и Xbox One действительно являются лидерами. По жанрам же, все три региона показали популярность Action, но его продажи на глобальном рынке довольно низкие (7 место в рейтинге жанров). Следующим по популярности в двух регионах идёт Shooter, который является бестселлером среди жанров. Что касается категорий, то здесь стоит обратить внимание на рынок. Для японского рынка рейтинг ESRB почти не имеет значения, в то время как в европе и Америке только пятая часть игр не имеет этого рейтинга.
-## Статус:
-Проект завершён
+## **Work Performed**
+- Performed data preprocessing and cleaning  
+- Conducted exploratory data analysis (EDA)  
+- Selected a relevant time period for analysis  
+- Built user profiles for different regions (North America, Europe, Japan)  
+- Tested statistical hypotheses:
+  - Average user ratings for Xbox One and PC are equal  
+  - Average user ratings for Action and Sports genres are different  
+- Applied **Student’s t-test for independent samples**  
+
+## **Tech Stack**
+Matplotlib, NumPy, Pandas, Python, Exploratory Data Analysis, Descriptive Statistics, Data Preprocessing, Statistical Hypothesis Testing  
+
+## **Key Findings**
+The analysis covers global video game sales data from 1985 to 2016.
+
+- **Top platforms to consider:** PS4, Xbox One, X360, Wii, WiiU  
+- **High-performing genres (based on average sales):**
+  - Shooter  
+  - Sports  
+  - Platform  
+  - Fighting  
+  - Role-Playing  
+
+- The global top-selling platforms confirm that **North American and European markets are strong indicators of global trends**, with PS4 and Xbox One leading  
+
+- **Genre insights:**
+  - Action is popular across all regions but ranks relatively low globally in total sales (7th place)  
+  - Shooter is consistently among the top-performing genres and a global bestseller  
+
+- **Regional differences:**
+  - ESRB ratings have minimal impact in the Japanese market  
+  - In North America and Europe, most successful games have ESRB ratings (only ~20% lack them)  
+
+## **Conclusion**
+- Platform and genre selection are critical factors in predicting game success  
+- Regional preferences significantly influence sales performance  
+- Marketing strategies should be tailored by region, especially considering differences in rating systems and genre popularity  
+
+## **Status**
+Completed
