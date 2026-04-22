@@ -1,22 +1,26 @@
-# Проект: Проверка гипотез по увеличению выручки в интернет-магазине — оценить результаты A/B теста
-## Описание: 
-Источник: данные интернет-магазина о покупках пользователей разных групп
+# Project: Hypothesis Testing for Revenue Growth in an Online Store — A/B Test Evaluation
 
-Цель: приоритизировать гипотезы, произвести оценку результатов A/B-тестирования
+## Description:
+Source: e-commerce dataset with user purchases across different experiment groups
 
-Провела приоритизацию гипотез по фреймворкам ICE и RICE. Затем провела анализ результатов A/B-теста, построила графики кумулятивной выручки, среднего чека, конверсии по группам, а затем посчитала статистическую значимость различий конверсий и средних чеков по сырым и очищенным данным. На основании анализа мной было принято решение о нецелесообразности дальнейшего проведения теста.
-## Стек: 
-A/B-тестирование, Matplotlib, Pandas, Python, SciPy, проверка статистических гипотез
-## Выводы:
-Приориритизация гипотез:
-по ICE стоит проверять гипотезы под номерами 8, 0 и 7, а по RICE - гипотезы 7, 2, 0 и 6.
+Objective: prioritize hypotheses and evaluate the results of A/B testing
 
-Результаты A/B-теста:
-- в сырых данных и в очищенных данных есть статистически значимое различие между средним количеством заказов в группах, в группе В их на ~14% больше в среднем;
-в сырых и очищенных данных p-value для среднего чека составляет 0.8, что не даёт нам отвергнуть нулевую гипотезу об отсутствии различий между средними чеками в группах, после очищения данных среднее различие сократилось с 25% до 2%;
-- график относительного изменения среднего чека группы B показывает рост, но имеет большой провал в середине теста, что не позволяет делать однозначные выводы по этому графику;
-- график относительного изменения количества заказов на пользователя стабилен, не имеет значительных провалов и показывает стабильный минимальный показатель прироста количества заказов в группе В на 10%, относительно группы А.
+Prioritized hypotheses using ICE and RICE frameworks. Then analyzed A/B test results by building cumulative revenue, average order value, and conversion rate graphs for each group. Calculated the statistical significance of differences in conversion rates and average order values using both raw and cleaned data. Based on the analysis, concluded that continuing the test is not reasonable.
 
-По результатам анализа можно принять решение о приостановке теста и зафиксировать победу группы В.
-## Статус:
-Проект завершён
+## Tech Stack:
+A/B testing, Matplotlib, Pandas, Python, SciPy, statistical hypothesis testing
+
+## Conclusions:
+Hypothesis prioritization:
+according to ICE, hypotheses 8, 0, and 7 should be tested first; according to RICE — hypotheses 7, 2, 0, and 6.
+
+A/B test results:
+- both raw and cleaned data show a statistically significant difference in the average number of orders between groups; group B has approximately 14% more orders on average;
+- in both raw and cleaned data, the p-value for average order value is 0.8, which does not allow rejection of the null hypothesis of no difference between groups; after data cleaning, the observed difference decreased from 25% to 2%;
+- the relative change in average order value for group B shows growth but includes a significant drop mid-test, making conclusions unreliable based on this metric alone;
+- the relative change in the number of orders per user is stable, without major fluctuations, and shows a consistent minimum increase of 10% in group B compared to group A.
+
+Based on the analysis, it is reasonable to stop the test and declare group B as the winner.
+
+## Status:
+Project completed
